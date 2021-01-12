@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f3f3f3;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cards {
+  width: 500px;
+  padding: 50px 50px 0 50px;
+}
+
+.cards h1 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.cards input {
+  width: 250px;
+  padding: 15px 16px;
+  color: #000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 13px;
+  background: #f3f3f3;
+  box-shadow: inset 8px 8px 16px #e0e0e0, inset -8px -8px 16px #ffffff;
+}
+
+.cards button {
+  width: 100px;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 13px;
+  background: #f3f3f3;
+  box-shadow: 8px 8px 16px #e0e0e0, -8px -8px 16px #ffffff;
+  outline: none;
+}
+.cards button:active {
+  font-size: 14px;
+  box-shadow: inset 8px 8px 16px #e0e0e0, inset -8px -8px 16px #ffffff;
+}
+
+.cards ul {
+  background-color: #f3f3f3;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 13px;
+  background: #f3f3f3;
+  box-shadow: 8px 8px 16px #e0e0e0, -8px -8px 16px #ffffff;
+}
+
+.cards li {
+  width: 360px;
+  height: 100px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 18px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 13px;
+  background: #f3f3f3;
+  box-shadow: 8px 8px 16px #e0e0e0, -8px -8px 16px #ffffff;
+  cursor: pointer;
+}
+
+.your-list {
+  width: 500px;
+  padding: 50px 50px 0 50px;
+}
+
+.your-list button {
+  width: 200px;
+  height: 60px;
+  padding: 13px;
+  display: block;
+  margin: auto;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  border-radius: 13px;
+  background: #f3f3f3;
+  outline: none;
+  box-shadow: 8px 8px 16px #e0e0e0, -8px -8px 16px #ffffff;
+}
+
+.your-list button:active {
+  font-size: 18px;
+
+  box-shadow: inset 8px 8px 16px #e0e0e0, inset -8px -8px 16px #ffffff;
+}
+
+.my-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+input.your-title {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 25px;
+  border: none;
+  box-shadow: none;
+}
